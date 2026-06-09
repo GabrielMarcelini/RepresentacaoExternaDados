@@ -11,6 +11,9 @@ public class Person implements Serializable {
 	private Date birthDay;
 	private Address address;
 
+	public Person() {
+	}
+
 	public Person(String name, String cpf, Date birthDay, Address address) {
 		this.name = name;
 		this.cpf = cpf;

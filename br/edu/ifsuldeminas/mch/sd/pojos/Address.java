@@ -12,6 +12,9 @@ public class Address implements Serializable {
 
 	private String state;
 
+	public Address() {
+	}
+
 	public Address(String patio, int number, String neighborhood, String zipCode, String city, String state) {
 		this.patio = patio;
 		this.number = number;
